@@ -1,0 +1,29 @@
+﻿###########################
+# French Events
+###########################
+
+add_namespace = france
+
+# America wants to join Faction
+country_event = {
+	id = france.2
+	title = france.2.t
+	desc = france.2.d
+	picture = GFX_report_event_fascist_gathering
+
+	is_triggered_only = yes
+		
+	option = {
+		name = france.2.a
+		ai_chance = { factor = 100 }
+		FRA = { add_to_faction = USA }
+		hidden_effect = {
+			news_event = { hours = 6 id = news.1 }
+		}
+	}
+	option = {
+		name = france.2.b
+		ai_chance = { factor = 0 }
+		}
+	}
+
