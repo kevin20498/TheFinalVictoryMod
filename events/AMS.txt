@@ -1,0 +1,21 @@
+add_namespace = AMS
+
+country_event = {
+	id = AMS.1
+	title = AMS.1.t
+	desc = AMS.1.d
+	picture = 
+
+	fire_only_once = yes
+
+	Trigger = {
+		DATE > 1937.4.10
+		has_war = no
+	}
+
+	option = {
+		name = AMS.1.a
+		ai_chance = { factor = 100}
+		add_ideas = recover_civil_war
+	}
+}

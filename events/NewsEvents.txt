@@ -1,0 +1,71 @@
+﻿###########################
+# News Events
+###########################
+
+add_namespace = news
+
+# American French alliance
+news_event = {
+	id = news.1
+	title = news.1.t
+	desc = news.1.d
+	picture = GFX_news_event_017
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.1.a
+		trigger = {
+			NOT = {
+				TAG = USA
+				TAG = FRA
+			}
+		}
+	}
+	option = {
+		name = news.1.b
+		trigger = { TAG = USA }
+	}
+	option = {
+		name = news.1.c
+		trigger = { TAG = FRA }
+	}
+		
+}
+# The second american civil war
+news_event = {
+	id = news.2
+	title = news.2.t
+	desc = news.2.d
+	picture = GFX_news_event_004
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.2.a
+		trigger = {
+			NOT = {
+				TAG = USA
+				TAG = AMS
+				TAG = UAC
+			}
+		}
+	}
+	option = {
+		name = news.2.b
+		trigger = { TAG = USA }
+	}
+	option = {
+		name = news.2.c
+		trigger = { TAG = AMS }
+	}
+	option = {
+		name = news.2.d
+		trigger = { TAG = UAC }
+	}
+		
+}
