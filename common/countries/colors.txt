@@ -551,3 +551,7 @@ UAC = {
 	color = rgb { 236 66 66 }
 	color_ui = rgb { 236 66 66 }
 }
+HWI = {
+	color = rgb { 196  0  128 }
+	color_ui = rgb { 196  0  128 }
+}
