@@ -1,0 +1,19 @@
+state={
+	id=797
+	name="STATE_797"
+
+	history={
+		owner = MEX
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = MEX
+
+	}
+	provinces={
+		1862 4736 7756 7827 10422 10591 12134 
+	}
+	manpower=32002
+	buildings_max_level_factor=1.000
+}
