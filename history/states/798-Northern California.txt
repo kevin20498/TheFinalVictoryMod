@@ -1,0 +1,21 @@
+state={
+	id=798
+	name="STATE_798"
+
+	history={
+		owner = MEX
+		buildings = {
+			infrastructure = 6
+			arms_factory = 2
+			industrial_complex = 6
+			dockyard = 2
+			air_base = 10
+		}
+		add_core_of = MEX
+	}
+	provinces={
+		610 677 710 766 768 781 3588 3644 4331 6482 6665 6681 6745 6757 6772 9697 9713 9730 10159 11658 11698 
+	}
+	manpower=77248
+	buildings_max_level_factor=1.000
+}
