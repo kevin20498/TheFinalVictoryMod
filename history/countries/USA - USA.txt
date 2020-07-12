@@ -9,6 +9,7 @@ if = {
 	}
 }
 
+country_event = { id = USA.1 }
 set_research_slots = 3
 set_stability = 0.75
 set_war_support = 0
@@ -23,6 +24,7 @@ USA_recalc_congress_icon_frames = yes
 USA = {
 	country_event = { id = usa.50 days = 2 }
 	country_event = { id = usa.51 days = 2 }
+	country_event = { id = USA.1 hours = 1 }
 }
 # Starting tech
 set_technology = {

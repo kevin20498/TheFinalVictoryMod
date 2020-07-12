@@ -116,9 +116,6 @@ if = {
 		great_depression_3
 		new_deal
 	}
-	remove_ideas = {
-		great_depression
-	}
 
 	#focuses
 	unlock_national_focus = USA_continue_the_new_deal
