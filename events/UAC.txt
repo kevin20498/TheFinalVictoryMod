@@ -1,0 +1,53 @@
+add_namespace = UAC
+
+country_event = {
+	id = UAC.1
+	title = UAC.1.t
+	desc = UAC.1.d
+	picture = GFX_report_event_soviet_soldiers_tank
+
+	fire_only_once = yes
+
+	Trigger = {
+		DATE > 1937.5.1
+		has_war = no
+		tag = UAC
+	}
+
+	option = {
+		name = UAC.1.a
+		ai_chance = { factor = 100}
+		add_ideas = uac_recover_civil_war
+		add_ideas = uac_ruined_economy
+		add_ideas = uac_crippled_industry
+		add_ideas = uac_shellshocked_populace
+		remove_ideas = fire_of_revolution
+	}
+}
+country_event = {
+	id = UAC.2
+	title = UAC.2.t
+	desc = UAC.2.d
+
+	fire_only_once = yes
+
+	trigger = {
+	    DATE > 1938.2.12
+	    tag = UAC
+	}
+
+	option = {
+	    name = UAC.2.a
+	    ai_chance = { factor = 100 }
+	    create_country_leader = {
+	    name = "Norman Thomas"
+	    desc = "POLITICS_EARL_BROWDER_DESC"
+	    picture = "NormanThomasUAC.dds"
+	    expire = "1965.1.1"
+	    ideology = marxism
+	    traits = {
+		
+			}
+        }
+	}
+}

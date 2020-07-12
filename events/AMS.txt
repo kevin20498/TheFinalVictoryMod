@@ -1,0 +1,26 @@
+add_namespace = AMS
+
+country_event = {
+	id = AMS.1
+	title = AMS.1.t
+	desc = AMS.1.d
+	picture = GFX_report_event_soviet_soldiers_tank
+
+	fire_only_once = yes
+
+	Trigger = {
+		DATE > 1937.5.1
+		has_war = no
+		tag = AMS
+	}
+
+	option = {
+		name = AMS.1.a
+		ai_chance = { factor = 100}
+		remove_ideas = ams_fire_of_revolution
+		add_ideas = ams_recover_civil_war
+		add_ideas = ams_ruined_economy
+		add_ideas = ams_crippled_industry
+		add_ideas = ams_shellshocked_populace
+	}
+}
