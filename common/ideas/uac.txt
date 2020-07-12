@@ -1,0 +1,99 @@
+ideas = {
+	
+	country = {
+	    uac_recover_civil_war = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.1
+				conscription_factor = -0.5
+				stability_factor = -0.35
+			}
+		}	
+
+		fire_of_revolution = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_core_defence_factor = 0.1
+				training_time_army_factor = -0.1
+				conscription_factor = 0.5
+				army_speed_factor = 0.05
+			}
+		}	
+
+		uac_ruined_economy = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.5
+				consumer_goods_factor = 0.5
+			}
+		}	
+
+		uac_crippled_industry = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_industrial_complex_factor = -0.1
+				production_speed_arms_factory_factor = -0.1
+				production_speed_dockyard_factor = -0.1
+				industry_repair_factor = -0.5
+			}
+		}	
+
+		uac_shellshocked_populace = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_cost = 1.0
+				stability_factor = -0.10
+			}
+		}	
+	}
+}
