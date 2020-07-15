@@ -1,0 +1,122 @@
+opinion_modifiers = {
+	mexican_treaty = {
+		value = 150
+		min_trust = 150
+		trade = yes
+	}
+	usa_treaty = {
+		value = 150
+		min_trust = 150
+		trade = yes
+	}
+	french_officer = {
+		value = 10
+		min_trust = 10
+		trade = no
+	}
+	prussia_officer = {
+	    value = 10
+	    min_trust = 10
+	    trade = no
+	}
+	hostile_status = { #special used for civil wars that are on hold and blocks faction stuff
+		value = -100
+	}
+
+	unstable_alliance = {
+		value = -10
+	}
+
+	holds_our_cores = {
+		value = -30
+	}
+	holds_our_claims = {
+		value = -15
+	}
+	claims_on_us = { 
+		value = -10
+	}
+	at_war_with_faction = {
+		value = -25
+	}
+	justifying_war_goal = {
+		value = -10
+		min_trust = -10
+		days = 10
+		decay = 1
+	}
+	protest_action_light = {
+		value = -10
+		months = 12
+		decay = 1
+	}
+
+	protest_action = {
+		value = -25
+		months = 12
+		decay = 1
+	}
+
+	protest_action_strong = {
+		value = -50
+		months = 12
+	}
+	improve_relation = {
+		value = 0
+		months = 0
+		decay = 3
+		max_trust = 100
+	}
+	
+	attache_sent = {
+		value = 30
+	}
+	
+	attache_sent_to_enemy = {
+		value = -20
+	}
+	
+	guarantee = {
+		value = 0
+	}
+	
+	guarantee = {
+		target = yes
+		value = 75
+	}
+	at_war = {
+		value = -75
+	}
+	
+	in_faction = {
+		value = 100
+	}
+	
+	military_access = {
+		value = 30
+	}
+	
+	non_aggression_pact = {
+		value = 25
+	}
+	same_ruling_party = {
+		value = 20
+	}
+	
+	similar_ruling_party = {
+		value = 10
+	}
+	
+	different_party_types = {
+		value = -10
+	}
+	
+	long_term_trade_partner = {
+		value = 1
+	}
+	
+	puppet_opinion = 
+	{
+		value = 200
+	}
+}
