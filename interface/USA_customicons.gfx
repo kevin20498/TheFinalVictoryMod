@@ -1,0 +1,915 @@
+spriteTypes = { 
+	##Icon For: Pursue Manifest Destiny
+	SpriteType = { 
+		name = "GFX_USA_pursue_manifest_destiny-28304"
+		texturefile = "gfx/interface/goals/GFX_USA_pursue_manifest_destiny-28304.dds"
+	}
+
+	##Icon Shine For: Pursue Manifest Destiny
+	SpriteType = { 
+		name = "GFX_USA_pursue_manifest_destiny-28304_shine"
+		texturefile = "gfx/interface/goals/GFX_USA_pursue_manifest_destiny-28304.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_USA_pursue_manifest_destiny-28304.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_USA_pursue_manifest_destiny-28304.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: Focus On Internal Issues
+	SpriteType = { 
+		name = "GFX_USA_focus_on_internal_issues-28378"
+		texturefile = "gfx/interface/goals/GFX_USA_focus_on_internal_issues-28378.dds"
+	}
+
+	##Icon Shine For: Focus On Internal Issues
+	SpriteType = { 
+		name = "GFX_USA_focus_on_internal_issues-28378_shine"
+		texturefile = "gfx/interface/goals/GFX_USA_focus_on_internal_issues-28378.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_USA_focus_on_internal_issues-28378.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_USA_focus_on_internal_issues-28378.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: Improve the Economy
+	SpriteType = { 
+		name = "GFX_USA_improve_the_economy-28376"
+		texturefile = "gfx/interface/goals/GFX_USA_improve_the_economy-28376.dds"
+	}
+
+	##Icon Shine For: Improve the Economy
+	SpriteType = { 
+		name = "GFX_USA_improve_the_economy-28376_shine"
+		texturefile = "gfx/interface/goals/GFX_USA_improve_the_economy-28376.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_USA_improve_the_economy-28376.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_USA_improve_the_economy-28376.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: Focus on the NEP
+	SpriteType = { 
+		name = "GFX_USA_focus_on_the_nep-26210"
+		texturefile = "gfx/interface/goals/GFX_USA_focus_on_the_nep-26210.dds"
+	}
+
+	##Icon Shine For: Focus on the NEP
+	SpriteType = { 
+		name = "GFX_USA_focus_on_the_nep-26210_shine"
+		texturefile = "gfx/interface/goals/GFX_USA_focus_on_the_nep-26210.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_USA_focus_on_the_nep-26210.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_USA_focus_on_the_nep-26210.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: Focus on the VPA
+	SpriteType = { 
+		name = "GFX_USA_focus_on_the_vpa-26207"
+		texturefile = "gfx/interface/goals/GFX_USA_focus_on_the_vpa-26207.dds"
+	}
+
+	##Icon Shine For: Focus on the VPA
+	SpriteType = { 
+		name = "GFX_USA_focus_on_the_vpa-26207_shine"
+		texturefile = "gfx/interface/goals/GFX_USA_focus_on_the_vpa-26207.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_USA_focus_on_the_vpa-26207.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_USA_focus_on_the_vpa-26207.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: Assassinate Radicals in Our Territory
+	SpriteType = { 
+		name = "GFX_USA_assassinate_radicals_in_our_territory-26701"
+		texturefile = "gfx/interface/goals/GFX_USA_assassinate_radicals_in_our_territory-26701.dds"
+	}
+
+	##Icon Shine For: Assassinate Radicals in Our Territory
+	SpriteType = { 
+		name = "GFX_USA_assassinate_radicals_in_our_territory-26701_shine"
+		texturefile = "gfx/interface/goals/GFX_USA_assassinate_radicals_in_our_territory-26701.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_USA_assassinate_radicals_in_our_territory-26701.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_USA_assassinate_radicals_in_our_territory-26701.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: Loyalty to the Chief
+	SpriteType = { 
+		name = "GFX_USA_loyalty_to_the_chief-26690"
+		texturefile = "gfx/interface/goals/GFX_USA_loyalty_to_the_chief-26690.dds"
+	}
+
+	##Icon Shine For: Loyalty to the Chief
+	SpriteType = { 
+		name = "GFX_USA_loyalty_to_the_chief-26690_shine"
+		texturefile = "gfx/interface/goals/GFX_USA_loyalty_to_the_chief-26690.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_USA_loyalty_to_the_chief-26690.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_USA_loyalty_to_the_chief-26690.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: Infiltrate NEP Cities
+	SpriteType = { 
+		name = "GFX_USA_infiltrate_nep_cities-26454"
+		texturefile = "gfx/interface/goals/GFX_USA_infiltrate_nep_cities-26454.dds"
+	}
+
+	##Icon Shine For: Infiltrate NEP Cities
+	SpriteType = { 
+		name = "GFX_USA_infiltrate_nep_cities-26454_shine"
+		texturefile = "gfx/interface/goals/GFX_USA_infiltrate_nep_cities-26454.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_USA_infiltrate_nep_cities-26454.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_USA_infiltrate_nep_cities-26454.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: Infiltrate VPA Cities
+	SpriteType = { 
+		name = "GFX_USA_infiltrate_vpa_cities-26453"
+		texturefile = "gfx/interface/goals/GFX_USA_infiltrate_vpa_cities-26453.dds"
+	}
+
+	##Icon Shine For: Infiltrate VPA Cities
+	SpriteType = { 
+		name = "GFX_USA_infiltrate_vpa_cities-26453_shine"
+		texturefile = "gfx/interface/goals/GFX_USA_infiltrate_vpa_cities-26453.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_USA_infiltrate_vpa_cities-26453.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_USA_infiltrate_vpa_cities-26453.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: Recruit New England Militia
+	SpriteType = { 
+		name = "GFX_USA_recruit_new_england_militia-26689"
+		texturefile = "gfx/interface/goals/GFX_USA_recruit_new_england_militia-26689.dds"
+	}
+
+	##Icon Shine For: Recruit New England Militia
+	SpriteType = { 
+		name = "GFX_USA_recruit_new_england_militia-26689_shine"
+		texturefile = "gfx/interface/goals/GFX_USA_recruit_new_england_militia-26689.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_USA_recruit_new_england_militia-26689.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_USA_recruit_new_england_militia-26689.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: A New Era
+	SpriteType = { 
+		name = "GFX_USA_a_new_era-28345"
+		texturefile = "gfx/interface/goals/GFX_USA_a_new_era-28345.dds"
+	}
+
+	##Icon Shine For: A New Era
+	SpriteType = { 
+		name = "GFX_USA_a_new_era-28345_shine"
+		texturefile = "gfx/interface/goals/GFX_USA_a_new_era-28345.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_USA_a_new_era-28345.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_USA_a_new_era-28345.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: Building the Economy
+	SpriteType = { 
+		name = "GFX_USA_building_the_economy-28338"
+		texturefile = "gfx/interface/goals/GFX_USA_building_the_economy-28338.dds"
+	}
+
+	##Icon Shine For: Building the Economy
+	SpriteType = { 
+		name = "GFX_USA_building_the_economy-28338_shine"
+		texturefile = "gfx/interface/goals/GFX_USA_building_the_economy-28338.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_USA_building_the_economy-28338.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_USA_building_the_economy-28338.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: Root out the Traitors
+	SpriteType = { 
+		name = "GFX_USA_root_out_the_traitors-28275"
+		texturefile = "gfx/interface/goals/GFX_USA_root_out_the_traitors-28275.dds"
+	}
+
+	##Icon Shine For: Root out the Traitors
+	SpriteType = { 
+		name = "GFX_USA_root_out_the_traitors-28275_shine"
+		texturefile = "gfx/interface/goals/GFX_USA_root_out_the_traitors-28275.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_USA_root_out_the_traitors-28275.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_USA_root_out_the_traitors-28275.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: Rebuild the Country
+	SpriteType = { 
+		name = "GFX_USA_rebuild_the_country-27590"
+		texturefile = "gfx/interface/goals/GFX_USA_rebuild_the_country-27590.dds"
+	}
+
+	##Icon Shine For: Rebuild the Country
+	SpriteType = { 
+		name = "GFX_USA_rebuild_the_country-27590_shine"
+		texturefile = "gfx/interface/goals/GFX_USA_rebuild_the_country-27590.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_USA_rebuild_the_country-27590.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_USA_rebuild_the_country-27590.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: The Last America Standing
+	SpriteType = { 
+		name = "GFX_USA_the_last_america_standing-27586"
+		texturefile = "gfx/interface/goals/GFX_USA_the_last_america_standing-27586.dds"
+	}
+
+	##Icon Shine For: The Last America Standing
+	SpriteType = { 
+		name = "GFX_USA_the_last_america_standing-27586_shine"
+		texturefile = "gfx/interface/goals/GFX_USA_the_last_america_standing-27586.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_USA_the_last_america_standing-27586.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_USA_the_last_america_standing-27586.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: New Nationalism
+	SpriteType = { 
+		name = "GFX_USA_new_nationalism-28314"
+		texturefile = "gfx/interface/goals/GFX_USA_new_nationalism-28314.dds"
+	}
+
+	##Icon Shine For: New Nationalism
+	SpriteType = { 
+		name = "GFX_USA_new_nationalism-28314_shine"
+		texturefile = "gfx/interface/goals/GFX_USA_new_nationalism-28314.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_USA_new_nationalism-28314.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_USA_new_nationalism-28314.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: Regulate the Power of the Military
+	SpriteType = { 
+		name = "GFX_USA_regulate_the_power_of_the_military-28313"
+		texturefile = "gfx/interface/goals/GFX_USA_regulate_the_power_of_the_military-28313.dds"
+	}
+
+	##Icon Shine For: Regulate the Power of the Military
+	SpriteType = { 
+		name = "GFX_USA_regulate_the_power_of_the_military-28313_shine"
+		texturefile = "gfx/interface/goals/GFX_USA_regulate_the_power_of_the_military-28313.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_USA_regulate_the_power_of_the_military-28313.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_USA_regulate_the_power_of_the_military-28313.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: Reinstall Local Governments
+	SpriteType = { 
+		name = "GFX_USA_reinstall_local_governments-28329"
+		texturefile = "gfx/interface/goals/GFX_USA_reinstall_local_governments-28329.dds"
+	}
+
+	##Icon Shine For: Reinstall Local Governments
+	SpriteType = { 
+		name = "GFX_USA_reinstall_local_governments-28329_shine"
+		texturefile = "gfx/interface/goals/GFX_USA_reinstall_local_governments-28329.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_USA_reinstall_local_governments-28329.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_USA_reinstall_local_governments-28329.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: Bread and Roses Act
+	SpriteType = { 
+		name = "GFX_USA_bread_and_roses_act-28315"
+		texturefile = "gfx/interface/goals/GFX_USA_bread_and_roses_act-28315.dds"
+	}
+
+	##Icon Shine For: Bread and Roses Act
+	SpriteType = { 
+		name = "GFX_USA_bread_and_roses_act-28315_shine"
+		texturefile = "gfx/interface/goals/GFX_USA_bread_and_roses_act-28315.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_USA_bread_and_roses_act-28315.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_USA_bread_and_roses_act-28315.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: Forgive the Wrongdoing
+	SpriteType = { 
+		name = "GFX_USA_forgive_the_wrongdoing-28276"
+		texturefile = "gfx/interface/goals/GFX_USA_forgive_the_wrongdoing-28276.dds"
+	}
+
+	##Icon Shine For: Forgive the Wrongdoing
+	SpriteType = { 
+		name = "GFX_USA_forgive_the_wrongdoing-28276_shine"
+		texturefile = "gfx/interface/goals/GFX_USA_forgive_the_wrongdoing-28276.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_USA_forgive_the_wrongdoing-28276.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_USA_forgive_the_wrongdoing-28276.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: American Diplomacy
+	SpriteType = { 
+		name = "GFX_USA_american_diplomacy-28301"
+		texturefile = "gfx/interface/goals/GFX_USA_american_diplomacy-28301.dds"
+	}
+
+	##Icon Shine For: American Diplomacy
+	SpriteType = { 
+		name = "GFX_USA_american_diplomacy-28301_shine"
+		texturefile = "gfx/interface/goals/GFX_USA_american_diplomacy-28301.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_USA_american_diplomacy-28301.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_USA_american_diplomacy-28301.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: The Texas Question
+	SpriteType = { 
+		name = "GFX_USA_the_texas_question-28366"
+		texturefile = "gfx/interface/goals/GFX_USA_the_texas_question-28366.dds"
+	}
+
+	##Icon Shine For: The Texas Question
+	SpriteType = { 
+		name = "GFX_USA_the_texas_question-28366_shine"
+		texturefile = "gfx/interface/goals/GFX_USA_the_texas_question-28366.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_USA_the_texas_question-28366.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_USA_the_texas_question-28366.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: Prussian Officer Reforms
+	SpriteType = { 
+		name = "GFX_USA_prussian_officer_reforms-28353"
+		texturefile = "gfx/interface/goals/GFX_USA_prussian_officer_reforms-28353.dds"
+	}
+
+	##Icon Shine For: Prussian Officer Reforms
+	SpriteType = { 
+		name = "GFX_USA_prussian_officer_reforms-28353_shine"
+		texturefile = "gfx/interface/goals/GFX_USA_prussian_officer_reforms-28353.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_USA_prussian_officer_reforms-28353.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_USA_prussian_officer_reforms-28353.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: French Officer Reforms
+	SpriteType = { 
+		name = "GFX_USA_french_officer_reforms-28354"
+		texturefile = "gfx/interface/goals/GFX_USA_french_officer_reforms-28354.dds"
+	}
+
+	##Icon Shine For: French Officer Reforms
+	SpriteType = { 
+		name = "GFX_USA_french_officer_reforms-28354_shine"
+		texturefile = "gfx/interface/goals/GFX_USA_french_officer_reforms-28354.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_USA_french_officer_reforms-28354.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_USA_french_officer_reforms-28354.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+ 
+ }
