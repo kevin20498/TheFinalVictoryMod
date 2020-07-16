@@ -1,0 +1,20 @@
+state={
+	id=800
+	name="STATE_800"
+	manpower = 1035790
+		
+	state_category = rural
+
+	history={
+		owner = MEX
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		add_core_of = MEX
+	}
+
+	provinces={
+		10535 6887 1658 7684 868 7999 9792 12627 1738 4586
+	}
+}
