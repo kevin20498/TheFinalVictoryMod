@@ -212,11 +212,11 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Lázaro Cárdenas"
-	desc = "POLITICS_LAZARO_CARDENAS_DESC"
-	picture = "Portrait_Mexico_Lazaro_Cardenas.dds"
+	name = "Agustin IV"
+	desc = ""
+	picture = "gfx/leaders/MEX/Agustin_IV.png"
 	expire = "1965.1.1"
-	ideology = moderatism
+	ideology = despotism
 	traits = {
 		#
 	}

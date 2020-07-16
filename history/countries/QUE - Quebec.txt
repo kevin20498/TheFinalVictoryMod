@@ -1,4 +1,4 @@
-﻿capital = 12149
+﻿capital = 468
 
 oob = "QUE_1936"
 if = {

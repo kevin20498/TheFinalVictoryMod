@@ -14,6 +14,7 @@ news_event = {
 	major = yes
 	
 	is_triggered_only = yes
+	fire_only_once = yes
 	
 	option = {
 		name = news.1.a
@@ -44,6 +45,7 @@ news_event = {
 	major = yes
 	
 	is_triggered_only = yes
+	fire_only_once = yes
 	
 	option = {
 		name = news.2.a
@@ -76,6 +78,7 @@ news_event = {
 	picture = GFX_news_event_057
 	
 	major = yes
+	fire_only_once = yes
 	
 	trigger = {
 		OR = {
@@ -123,6 +126,7 @@ news_event = {
 	picture = GFX_news_event_057
 	
 	major = yes
+	fire_only_once = yes
 	
 	trigger = {
 		OR = {
@@ -170,6 +174,7 @@ news_event = {
 	picture = GFX_news_event_057
 	
 	major = yes
+	fire_only_once = yes
 	
 	trigger = {
 		OR = {
@@ -217,6 +222,7 @@ news_event = {
 	picture = GFX_news_event_057
 	
 	major = yes
+	fire_only_once = yes
 	
 	trigger = {
 		OR = {
@@ -264,6 +270,7 @@ news_event = {
 	picture = GFX_news_event_057
 	
 	major = yes
+	fire_only_once = yes
 	
 	trigger = {
 		OR = {
@@ -311,6 +318,7 @@ news_event = {
 	picture = GFX_news_event_057
 	
 	major = yes
+	fire_only_once = yes
 	
 	trigger = {
 		OR = {
@@ -347,53 +355,6 @@ news_event = {
 		name = news.8.c
 		trigger = {
 			TAG = UAC
-		}
-	}
-}
-###Fall of Saint Louis###
-news_event = {
-	id = news.9
-	title = news.9.t
-	desc = news.9.d
-	picture = GFX_news_event_057
-	
-	major = yes
-	
-	trigger = {
-		OR = {
-			373 = { is_controlled_by = UAC }
-			373 = { is_controlled_by = USA }
-		}
-		373 = { is_owned_by = AMS }
-	}
-
-	mean_time_to_happen = {
-		days = 1
-	}
-	
-	option = {
-		name = news.9.a
-		trigger = {
-			NOT = {
-				TAG = UAC
-				TAG = AMS
-				TAG = USA
-			}
-		}
-	}
-	option = {
-		name = news.9.b
-		trigger = {
-			OR = {
-				TAG = UAC
-				TAG = USA
-			}
-		}
-	}
-	option = {
-		name = news.9.c
-		trigger = {
-			TAG = AMS
 		}
 	}
 }

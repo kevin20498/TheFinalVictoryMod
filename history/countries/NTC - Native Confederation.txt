@@ -1,4 +1,4 @@
-﻿capital = 7315
+﻿capital = 386
 
 oob = "NTC_1936"
 if = {

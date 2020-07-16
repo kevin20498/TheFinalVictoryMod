@@ -101,7 +101,11 @@ country_event = {
 		ai_chance = { factor = 100}
 		add_popularity = {
 			ideology = neutrality
-			popularity = 1.00
+			popularity = 0.75
+		}
+		add_popularity = {
+			ideology = democratic
+			popularity = 0.25
 		}
 		add_war_support = 0.20
 		remove_ideas = broken_nation
@@ -221,8 +225,12 @@ country_event = {
 		name = USA.4.a
 		ai_chance = { factor = 100}
 		add_popularity = {
+			ideology = neutrality
+			popularity = 0.25
+		}
+		add_popularity = {
 			ideology = democratic
-			popularity = 1.00
+			popularity = 0.75
 		}
 		add_war_support = 0.20
 		load_oob = USA_CivilWar
@@ -781,9 +789,8 @@ country_event = {
 	Trigger = {
 		DATE > 1937.5.1
 		has_war = no
-		any_owned_state = {
-			is_core_of = UAC
-			is_core_of = AMS
+		NOT = {
+		    owns_state = 381
 		}
 	}
 	mean_time_to_happen = {days = 1}

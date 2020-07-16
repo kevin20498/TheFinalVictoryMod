@@ -23,6 +23,44 @@ ideas = {
 			}
 		}	
 
+		focus_uac = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			targeted_modifier = {
+				tag = UAC
+				attack_bonus_against = 0.10
+				defense_bonus_against = 0.10
+			}
+		}	
+
+		focus_ams = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			targeted_modifier = {
+				tag = AMS
+				attack_bonus_against = 0.10
+				defense_bonus_against = 0.10
+			}
+		}	
+
 		recover_civil_war = {
 			
 			allowed = {
