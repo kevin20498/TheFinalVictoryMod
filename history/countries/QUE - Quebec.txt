@@ -235,9 +235,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Jean I"
+	name = "Jacques II"
 	desc = "POLITICS_JS_WOODSWORTH_DESC"
-	picture = "QUEBeginningKingNonAllinged.dds"
+	picture = "QUEJacquesII.dds"
 	expire = "1965.1.1"
 	ideology = centrism
 	traits = {
