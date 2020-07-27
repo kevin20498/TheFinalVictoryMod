@@ -1,0 +1,76 @@
+ideas = {
+
+	country = {
+		jacques_ii = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.15
+			}
+		}
+
+		parlements_restored = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				democratic_drift = 0.05
+				stability_factor = 0.15
+				political_power_gain = 0.05
+			}
+		}
+
+		royal_gendarmerie = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				democratic_drift = -0.05
+				political_power_gain = 0.05
+			}
+		}
+
+		civil_unrest = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				communism_drift = 0.10
+				stability_factor = -0.25
+			}
+		}
+	}
+}
