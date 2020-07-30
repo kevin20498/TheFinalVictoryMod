@@ -1,0 +1,448 @@
+﻿###########################
+# News Events
+###########################
+
+add_namespace = news
+
+# American French alliance
+news_event = {
+	id = news.1
+	title = news.1.t
+	desc = news.1.d
+	picture = GFX_news_event_017
+	
+	major = yes
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = news.1.a
+		trigger = {
+			NOT = {
+				TAG = USA
+				TAG = FRA
+			}
+		}
+	}
+	option = {
+		name = news.1.b
+		trigger = { TAG = USA }
+	}
+	option = {
+		name = news.1.c
+		trigger = { TAG = FRA }
+	}
+		
+}
+# The second american civil war
+news_event = {
+	id = news.2
+	title = news.2.t
+	desc = news.2.d
+	picture = GFX_news_event_004
+	
+	major = yes
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = news.2.a
+		trigger = {
+			NOT = {
+				TAG = USA
+				TAG = AMS
+				TAG = UAC
+			}
+		}
+	}
+	option = {
+		name = news.2.b
+		trigger = { TAG = USA }
+	}
+	option = {
+		name = news.2.c
+		trigger = { TAG = AMS }
+	}
+	option = {
+		name = news.2.e
+		trigger = { TAG = UAC }
+	}
+}
+###fall of washington###
+news_event = {
+	id = news.3
+	title = news.3.t
+	desc = news.3.d
+	picture = GFX_news_event_057
+	
+	major = yes
+	fire_only_once = yes
+	
+	trigger = {
+		OR = {
+			361 = { is_controlled_by = UAC }
+			361 = { is_controlled_by = AMS }
+		}
+		361 = { is_owned_by = USA }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = news.3.a
+		trigger = {
+			NOT = {
+				TAG = UAC
+				TAG = AMS
+				TAG = USA
+			}
+		}
+	}
+	option = {
+		name = news.3.b
+		trigger = {
+			OR = {
+				TAG = AMS
+				TAG = UAC
+			}
+		}
+	}
+	option = {
+		name = news.3.c
+		trigger = {
+			TAG = USA 
+		}
+	}
+}
+###Fall of Phily###
+news_event = {
+	id = news.4
+	title = news.4.t
+	desc = news.4.d
+	picture = GFX_news_event_057
+	
+	major = yes
+	fire_only_once = yes
+	
+	trigger = {
+		OR = {
+			360 = { is_controlled_by = UAC }
+			360 = { is_controlled_by = AMS }
+		}
+		360 = { is_owned_by = USA }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = news.4.a
+		trigger = {
+			NOT = {
+				TAG = UAC
+				TAG = AMS
+				TAG = USA
+			}
+		}
+	}
+	option = {
+		name = news.4.b
+		trigger = {
+			OR = {
+				TAG = AMS
+				TAG = UAC
+			}
+		}
+	}
+	option = {
+		name = news.4.c
+		trigger = {
+			TAG = USA 
+		}
+	}
+}
+###Fall of New York###
+news_event = {
+	id = news.5
+	title = news.5.t
+	desc = news.5.d
+	picture = GFX_news_event_057
+	
+	major = yes
+	fire_only_once = yes
+	
+	trigger = {
+		OR = {
+			358 = { is_controlled_by = UAC }
+			358 = { is_controlled_by = AMS }
+		}
+		358 = { is_owned_by = USA }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = news.5.a
+		trigger = {
+			NOT = {
+				TAG = UAC
+				TAG = AMS
+				TAG = USA
+			}
+		}
+	}
+	option = {
+		name = news.5.b
+		trigger = {
+			OR = {
+				TAG = AMS
+				TAG = UAC
+			}
+		}
+	}
+	option = {
+		name = news.5.c
+		trigger = {
+			TAG = USA 
+		}
+	}
+}
+###Fall of Boston###
+news_event = {
+	id = news.6
+	title = news.6.t
+	desc = news.6.d
+	picture = GFX_news_event_057
+	
+	major = yes
+	fire_only_once = yes
+	
+	trigger = {
+		OR = {
+			358 = { is_controlled_by = UAC }
+			358 = { is_controlled_by = AMS }
+		}
+		358 = { is_owned_by = USA }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = news.6.a
+		trigger = {
+			NOT = {
+				TAG = UAC
+				TAG = AMS
+				TAG = USA
+			}
+		}
+	}
+	option = {
+		name = news.6.b
+		trigger = {
+			OR = {
+				TAG = AMS
+				TAG = UAC
+			}
+		}
+	}
+	option = {
+		name = news.6.c
+		trigger = {
+			TAG = USA 
+		}
+	}
+}
+###Fall of detriot###
+news_event = {
+	id = news.7
+	title = news.7.t
+	desc = news.7.d
+	picture = GFX_news_event_057
+	
+	major = yes
+	fire_only_once = yes
+	
+	trigger = {
+		OR = {
+			393 = { is_controlled_by = UAC }
+			393 = { is_controlled_by = AMS }
+		}
+		393 = { is_owned_by = USA }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = news.7.a
+		trigger = {
+			NOT = {
+				TAG = UAC
+				TAG = AMS
+				TAG = USA
+			}
+		}
+	}
+	option = {
+		name = news.7.b
+		trigger = {
+			OR = {
+				TAG = AMS
+				TAG = USA
+			}
+		}
+	}
+	option = {
+		name = news.7.c
+		trigger = {
+			TAG = UAC
+		}
+	}
+}
+###Fall of Chicago###
+news_event = {
+	id = news.8
+	title = news.8.t
+	desc = news.8.d
+	picture = GFX_news_event_057
+	
+	major = yes
+	fire_only_once = yes
+	
+	trigger = {
+		OR = {
+			395 = { is_controlled_by = USA }
+			395 = { is_controlled_by = AMS }
+		}
+		395 = { is_owned_by = UAC }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = news.8.a
+		trigger = {
+			NOT = {
+				TAG = UAC
+				TAG = AMS
+				TAG = USA
+			}
+		}
+	}
+	option = {
+		name = news.8.b
+		trigger = {
+			OR = {
+				TAG = AMS
+				TAG = USA
+			}
+		}
+	}
+	option = {
+		name = news.8.c
+		trigger = {
+			TAG = UAC
+		}
+	}
+}
+news_event = {
+	id = news.9
+	title = news.9.t
+	desc = news.9.d
+	picture = GFX_news_event_mex_civil_war
+	
+	major = yes
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.9.a
+		trigger = {
+			NOT = {
+				TAG = TEX
+				TAG = MEX
+			}
+		}
+	}
+	option = {
+		name = news.9.b
+		trigger = {
+			OR = {
+				TAG = TEX
+			}
+		}
+	}
+	option = {
+		name = news.9.c
+		trigger = {
+			TAG = MEX
+		}
+	}
+}
+news_event = {
+	id = news.10
+	title = news.10.t
+	desc = news.10.d
+	picture = GFX_news_event_polish_resistance_warsaw
+	
+	major = yes
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.10.a
+		trigger = {
+			NOT = {
+				TAG = TEX
+				TAG = MEX
+				TAG = CAF
+				TAG = MOR
+				TAG = RIG
+				TAG = YUC
+				TAG = GUA
+				TAG = ELS
+				TAG = HON
+				TAG = NIC
+				TAG = COS
+			}
+		}
+	}
+	option = {
+		name = news.10.b
+		trigger = {
+			OR = {
+				TAG = TEX
+				TAG = CAF
+				TAG = MOR
+				TAG = RIG
+				TAG = YUC
+				TAG = GUA
+				TAG = ELS
+				TAG = HON
+				TAG = NIC
+				TAG = COS
+			}
+		}
+	}
+	option = {
+		name = news.10.c
+		trigger = {
+			TAG = MEX
+		}
+	}
+}
