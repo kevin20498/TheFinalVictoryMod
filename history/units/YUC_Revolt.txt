@@ -1,0 +1,63 @@
+division_template = {
+	name = "División u Infantería"  	# Standard formation for frontline divisions
+
+	division_names_group = SPAN_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+units = {
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 4904
+		division_template = "División u Infantería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+
+	}	
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 4904
+		division_template = "División u Infantería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+
+	}	
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 4991
+		division_template = "División u Infantería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+
+	}
+	division= {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 4991
+		division_template = "División u Infantería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+
+	}
+}	
