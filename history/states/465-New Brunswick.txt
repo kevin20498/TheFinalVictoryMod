@@ -7,7 +7,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = QUE
+		owner = CAN
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 2
@@ -16,7 +16,6 @@ state={
 			}
 		}
 		add_core_of = CAN
-		add_core_of = QUE
 	}
 
 	provinces={

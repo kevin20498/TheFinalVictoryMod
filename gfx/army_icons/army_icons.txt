@@ -1,0 +1,476 @@
+﻿army = {
+	gfx = GFX_theatre_army_shield
+	
+	icon = {
+		#Example of icon script, corresponding to the frame index in the .dds files
+		#color_override = no
+		#name = "EQUAL_ICON"
+		#available = 
+		#{
+		#	tag = CHI
+		#}
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+		color_override = no
+		name = "4th German Army"
+	}
+	icon = {
+		color_override = no
+		name = "16th German Army"
+	}
+	icon = {
+		color_override = no
+		name = "1st Panzer Army"
+	}
+	icon = {
+		color_override = no
+		name = "5th German Army Corps"
+	}
+	icon = {
+		color_override = no
+		name = "6th German Army"
+	}
+	icon = {
+		color_override = no
+		name = "7th German Army"
+	}
+	icon = {
+		color_override = no
+		name = "2nd German Army"
+	}
+	icon = {
+		color_override = no
+		name = "2nd Panzer Army"
+	}
+	icon = {
+		color_override = no
+		name = "10th German Army"
+	}
+	icon = {
+		color_override = no
+		name = "11th German Army"
+	}
+	icon = {
+		color_override = no
+		name = "14th German Army"
+	}
+	icon = {
+		color_override = no
+		name = "17th German Army"
+	}
+	icon = {
+		color_override = no
+		name = "18th German Army"
+	}
+	icon = {
+		color_override = no
+		name = "Panzer Group H"
+	}
+	icon = {
+		color_override = no
+		name = "Panzer Group E"
+	}
+	icon = {
+		color_override = no
+		name = "Panzer Group Z"
+	}
+	icon = {
+		color_override = no
+		name = "Panzer Group A"
+	}
+	icon = {
+		color_override = no
+		name = "Panzer Group D"
+	}
+	icon = {
+		color_override = no
+		name = "1st British Army"
+	}
+	icon = {
+		color_override = no
+		name = "2nd British Army"
+	}
+	icon = {
+		color_override = no
+		name = "8th British Army"
+	}
+	icon = {
+		color_override = no
+		name = "10th British Army"
+	}
+	icon = {
+		color_override = no
+		name = "14th British Army"
+	}
+	icon = {
+		color_override = no
+		name = "British Northern Command"
+	}
+	icon = {
+		color_override = no
+		name = "British Eastern Command"
+	}
+	icon = {
+		color_override = no
+		name = "British Western Command"
+	}
+	icon = {
+		color_override = no
+		name = "British Southern Command"
+	}
+	icon = {
+		color_override = no
+		name = "British Aldershot Command"
+	}
+	icon = {
+		color_override = no
+		name = "Scottish Command"
+	}
+	icon = {
+		color_override = no
+		name = "American 8th Army"
+	}
+	icon = {
+		color_override = no
+		name = "American 1st Army"
+	}
+	icon = {
+		color_override = no
+		name = "American 2nd Army"
+	}
+	icon = {
+		color_override = no
+		name = "American 3rd Army"
+	}
+	icon = {
+		color_override = no
+		name = "American 5th Army"
+	}
+	icon = {
+		color_override = no
+		name = "American 6th Army"
+	}
+	icon = {
+		color_override = no
+		name = "American 7th Army"
+	}
+	icon = {
+		color_override = no
+		name = "American 9th Army"
+	}
+	icon = {
+		color_override = no
+		name = "French 1st Army"
+	}
+	icon = {
+		color_override = no
+		name = "Free French Forces"
+	}
+	icon = {
+		color_override = no
+		name = "French 2nd Army"
+	}
+	icon = {
+		color_override = no
+		name = "1st Allied Army"
+	}
+	icon = {
+		color_override = no
+		name = "1st Homeland Defense Army"
+	}
+	icon = {
+		color_override = no
+		name = "Sunflower Defense Corps"
+	}
+	icon = {
+		color_override = no
+		name = "I. Army"
+	}
+	icon = {
+		color_override = no
+		name = "II. Army"
+	}
+	icon = {
+		color_override = no
+		name = "III. Army"
+	}
+	icon = 
+	{
+		color_override = no
+		name = "1st Celestial Penetration Army"
+	}
+	icon = {
+		color_override = no
+		name = "1st Liberation Army"
+	}
+	icon = {
+		color_override = no
+		name = "IV. Army"
+	}
+	icon = {
+		color_override = no
+		name = "V. Army"
+	}
+	icon = {
+		color_override = no
+		name = "Soviet 7th Guards"
+	}
+	icon = {
+		color_override = no
+		name = "Soviet 41st Guards"
+	}
+	icon = {
+		color_override = no
+		name = "Soviet 90th Tanks"
+	}
+	icon = {
+		color_override = no
+		name = "Soviet 8th Artillery"
+	}
+	icon = {
+		color_override = no
+		name = "Soviet 1443rd Artillery"
+	}
+	icon = {
+		color_override = no
+		name = "Soviet 76th Tanks"
+	}
+	icon = {
+		color_override = no
+		name = "Soviet 3rd Mech. Guards"
+	}
+	icon = {
+		color_override = no
+		name = "Soviet 3rd Tanks"
+	}
+	icon = {
+		color_override = no
+		name = "Soviet 213th Tanks"
+	}
+	icon = {
+		color_override = no
+		name = "Soviet 8th Mechanized"
+	}
+}
+
+army_group = {
+	gfx = GFX_theatre_army_group_shield
+	
+	icon = {
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+		name = "15th Army Group"
+	}
+	icon = {
+		color_override = no
+		name = "12th Army Group"
+	}
+	icon = {
+		color_override = no
+		name = "6th Army Group"
+	}
+	icon = {
+		color_override = no
+	}
+}
+
+fleet = {
+	gfx = GFX_theatre_task_force_shield
+	
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+}
+
+task_force = {
+	gfx = GFX_theatre_task_force_shield
+	
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+	icon = {
+	}
+}
+
+naval_equipment_role = {
+	gfx = GFX_naval_equipment_role_icons
+	
+	icon = {
+		color_override = no
+		name = "Battery"
+	}
+	icon = {
+		color_override = no
+		name = "Shield"
+	}
+	icon = {
+		color_override = no
+		name = "Spotter"
+	}
+	icon = {
+		color_override = no
+		name = "Minelayer"
+	}
+	icon = {
+		color_override = no
+		name = "Minesweeper"
+	}
+	icon = {
+		color_override = no
+		name = "Skull"
+	}
+	icon = {
+		color_override = no
+		name = "Airplane"
+	}
+	icon = {
+		color_override = no
+		name = "Crab"
+	}
+}

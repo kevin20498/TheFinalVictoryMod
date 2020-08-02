@@ -11,7 +11,7 @@ state={
 	}
 
 	history={
-		owner = QUE
+		owner = CAN
 		buildings = {
 			infrastructure = 6
 			arms_factory = 2
@@ -22,7 +22,6 @@ state={
 			}
 		}
 		add_core_of = CAN
-		add_core_of = QUE
 		victory_points = {
 			4345 20
 		}

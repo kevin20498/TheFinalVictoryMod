@@ -1,0 +1,138 @@
+opinion_modifiers = {
+	
+	faction_traitor = {
+		value = -75
+	}
+	
+	faction_traitor_trade = {
+		trade = yes
+		value = -40
+	}
+	
+	our_liberators = {
+		value = 40
+		months = 18
+		decay = 1
+	}
+	
+	guarantee = {
+		value = 0
+	}
+	
+	guarantee = {
+		target = yes
+		value = 35
+	}
+	
+	at_war = {
+		value = -75
+	}
+	
+	in_faction = {
+		value = 50
+	}
+	
+	military_access = {
+		value = 10
+	}
+	
+	non_aggression_pact = {
+		value = 25
+	}
+
+	embargo = {
+		trade = yes
+		value = -100
+	}
+	sanctions = {
+		trade = yes
+		value = -50
+	}
+	minor_sanctions = {
+		trade = yes
+		value = -20
+	}
+
+	rejected_demands = {
+		value = -30
+	}
+
+	unilateral_war = {
+		value = -50
+	}
+	
+	attache_sent = {
+		value = 15
+	}
+	
+	attache_sent_to_enemy = {
+		value = -20
+	}
+
+	improve_relation = {
+		value = 0
+		months = 0
+		decay = 3
+		max_trust = 100
+	}
+
+	betrayed_alliance = {
+		value = -50
+	}
+	refused_naval_treaty = {
+		value = -30
+	}
+
+	border_conflict_reconciled = {
+		value = 20
+	}
+	
+	puppet_opinion = {
+		value = 50
+	}
+	
+	justifying_war_goal = {
+		value = -10
+		min_trust = -10
+		days = 10
+		decay = 1
+	}
+	
+	same_ruling_party = {
+		value = 20
+	}
+	
+	similar_ruling_party = {
+		value = 10
+	}
+	
+	different_party_types = {
+		value = -10
+	}
+	
+	long_term_trade_partner = {
+		value = 1
+	}
+
+	cheat_opinion_modifier_good = {
+		value = 200
+	}
+
+	hostile_status = { #special used for civil wars that are on hold and blocks faction stuff
+		value = -100
+	}
+
+	holds_our_cores = {
+		value = -30
+	}
+	holds_our_claims = {
+		value = -15
+	}
+	claims_on_us = { 
+		value = -10
+	}
+	at_war_with_faction = {
+		value = -25
+	}
+
+}
