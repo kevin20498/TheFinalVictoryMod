@@ -10,16 +10,13 @@ state={
 	state_category = town
 
 	history={
-		owner = USA
+		owner = MEX
+		add_core_of = MEX
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
 		}
-		add_core_of = USA
-		victory_points = {
-			1827 5 
-		}
-
+		victory_points = { 1827 5 }
 	}
 
 	provinces={

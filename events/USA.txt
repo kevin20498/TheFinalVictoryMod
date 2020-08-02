@@ -1,0 +1,14 @@
+add_namespace = united_states
+add_namespace = united_states_news
+
+#Setup Event
+country_event = {
+	id = united_states.1
+	title = united_states.1.title
+	desc = united_states.1.desc
+	picture = GFX_event_test
+	is_triggered_only = yes
+	option = {
+		name = USA.1.o1
+	}
+}
