@@ -8,7 +8,7 @@ continuous_focus_palette = {
 	default = yes
 	reset_on_civilwar = no
 			
-	position = { x = 1 y = 5000 }
+	position = { x = 50 y = 1000 }
 	
 		
 	focus = {
@@ -120,7 +120,7 @@ continuous_focus_palette = {
 		}
 		
 		modifier = {
-			resistance_tick_auto = -2
+			resistance_target = -0.05
 		}
 		
 		ai_will_do = {
@@ -159,51 +159,6 @@ continuous_focus_palette = {
 				
 				has_damaged_buildings = no
 			}
-		}
-		
-		supports_ai_strategy = ai_focus_military_advancements
-		
-		daily_cost = 1
-		
-		available_if_capitulated = yes
-	}
-
-	focus = {
-		id = continuous_tech_share
-		
-		icon = GFX_goal_continuous_research
-		
-		available = {
-			hidden_trigger = { has_dlc = "Together for Victory" }
-			
-		}
-
-		enable = {
-			is_in_faction = yes
-			num_faction_members > 1
-
-			custom_trigger_tooltip = {
-				tooltip = NO_OTHER_SHARING_GROUPS
-				OR = {
-					AND = {
-						is_in_tech_sharing_group = continuous_tech_share
-						num_tech_sharing_groups < 2
-					}
-					num_tech_sharing_groups < 1
-				}				
-			}
-		}
-		
-		select_effect = {
-			add_to_tech_sharing_group = continuous_tech_share
-		}
-		
-		cancel_effect = {
-			remove_from_tech_sharing_group = continuous_tech_share	
-		}
-
-		ai_will_do = {
-			factor = 0
 		}
 		
 		supports_ai_strategy = ai_focus_military_advancements
@@ -252,7 +207,8 @@ continuous_focus_palette = {
 		}
 
 		modifier = {
-			subjects_autonomy_gain = -0.5
+			custom_modifier_tooltip = subject_autonomy_mod_tt
+			hidden_modifier = { subjects_autonomy_gain = -0.5 }
 		}
 		
 		ai_will_do = {

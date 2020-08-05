@@ -5,6 +5,9 @@ technologies = {
 		enable_equipments = {
 			gw_tank_equipment
 		}
+		enable_subunits = {
+			light_armor
+		}
 
 		on_research_complete = {
 			limit = {
@@ -83,6 +86,9 @@ technologies = {
 
 		enable_equipments = {
 			light_tank_equipment_1 
+		}
+		enable_subunits = {
+			light_armor
 		}
 
 		on_research_complete = {
@@ -164,6 +170,9 @@ technologies = {
 		enable_equipments = {
 			light_tank_destroyer_equipment_1
 		}
+		enable_subunits = {
+			light_tank_destroyer_brigade
+		}
 	
 		research_cost = 0.5
 		start_year = 1934
@@ -217,6 +226,9 @@ technologies = {
 		enable_equipments = {
 			light_tank_artillery_equipment_1
 		}
+		enable_subunits = {
+			light_sp_artillery_brigade
+		}
 	
 		research_cost = 0.5
 		start_year = 1934
@@ -246,6 +258,9 @@ technologies = {
 
 		enable_equipments = {
 			light_tank_aa_equipment_1
+		}
+		enable_subunits = {
+			light_sp_anti_air_brigade
 		}
 	
 		research_cost = 0.5
@@ -500,8 +515,7 @@ technologies = {
 			}
 			modifier = {
 				not = {
-					any_state = {
-						is_controlled_by = ROOT
+					any_controlled_state = {
 						is_coastal = yes
 					}
 				}
@@ -545,8 +559,7 @@ technologies = {
 			}
 			modifier = {
 				not = {
-					any_state = {
-						is_controlled_by = ROOT
+					any_controlled_state = {
 						is_coastal = yes
 					}
 				}
@@ -685,6 +698,10 @@ technologies = {
 		enable_equipments = {
 			medium_tank_equipment_1 
 		}
+
+		enable_subunits = {
+			medium_armor
+		}
 		
 		path = {
 			leads_to_tech = improved_medium_tank 
@@ -735,11 +752,6 @@ technologies = {
 				factor = 1.1
 				date > "1942.1.1"
 			}
-			
-			modifier = {
-				factor = 15.0
-				tag = GER
-			}
 		}
 		
 		categories = {
@@ -752,6 +764,10 @@ technologies = {
 
 		enable_equipments = {
 			medium_tank_destroyer_equipment_1
+		}
+
+		enable_subunits = {
+			medium_tank_destroyer_brigade
 		}
 	
 		research_cost = 0.5
@@ -812,6 +828,10 @@ technologies = {
 		enable_equipments = {
 			medium_tank_artillery_equipment_1
 		}
+
+		enable_subunits = {
+			medium_sp_artillery_brigade
+		}
 	
 		research_cost = 0.5
 		start_year = 1939
@@ -857,6 +877,10 @@ technologies = {
 
 		enable_equipments = {
 			medium_tank_aa_equipment_1
+		}
+
+		enable_subunits = {
+			medium_sp_anti_air_brigade
 		}
 	
 		research_cost = 0.5
@@ -1294,6 +1318,9 @@ technologies = {
 		enable_equipments = {
 			modern_tank_equipment_1
 		}	
+		enable_subunits = {
+			modern_armor
+		}
 		
 		research_cost = 2.5
 		start_year = 1945
@@ -1339,6 +1366,10 @@ technologies = {
 		enable_equipments = {
 			modern_tank_destroyer_equipment_1
 		}
+
+		enable_subunits = {
+			modern_tank_destroyer_brigade
+		}
 	
 		research_cost = 0.5
 		start_year = 1945
@@ -1371,6 +1402,10 @@ technologies = {
 
 		enable_equipments = {
 			modern_tank_artillery_equipment_1
+		}
+
+		enable_subunits = {
+			modern_sp_artillery_brigade
 		}
 	
 		research_cost = 0.5
@@ -1405,6 +1440,10 @@ technologies = {
 		enable_equipments = {
 			modern_tank_aa_equipment_1
 		}
+
+		enable_subunits = {
+			modern_sp_anti_air_brigade
+		}
 	
 		research_cost = 0.5
 		start_year = 1945
@@ -1422,6 +1461,10 @@ technologies = {
 
 		enable_equipments = {
 			heavy_tank_equipment_1 
+		}
+
+		enable_subunits = {
+			heavy_armor
 		}
 
 		on_research_complete = {
@@ -1515,6 +1558,10 @@ technologies = {
 		enable_equipments = {
 			heavy_tank_destroyer_equipment_1
 		}
+
+		enable_subunits = {
+			heavy_tank_destroyer_brigade
+		}
 	
 		research_cost = 0.5
 		start_year = 1934
@@ -1541,6 +1588,10 @@ technologies = {
 
 		enable_equipments = {
 			heavy_tank_artillery_equipment_1
+		}
+
+		enable_subunits = {
+			heavy_sp_artillery_brigade
 		}
 	
 		research_cost = 0.5
@@ -1569,6 +1620,9 @@ technologies = {
 
 		enable_equipments = {
 			heavy_tank_aa_equipment_1
+		}
+		enable_subunits = {
+			heavy_sp_anti_air_brigade
 		}
 	
 		research_cost = 0.5
@@ -1884,6 +1938,10 @@ technologies = {
 		enable_equipments = {
 			super_heavy_tank_equipment_1
 		}
+
+		enable_subunits = {
+			super_heavy_armor
+		}
 	
 		research_cost = 2.5
 		start_year = 1943
@@ -1913,6 +1971,10 @@ technologies = {
 		enable_equipments = {
 			super_heavy_tank_destroyer_equipment_1
 		}
+
+		enable_subunits = {
+			super_heavy_tank_destroyer_brigade
+		}
 	
 		research_cost = 0.5
 		start_year = 1943
@@ -1931,6 +1993,10 @@ technologies = {
 		enable_equipments = {
 			super_heavy_tank_artillery_equipment_1
 		}
+
+		enable_subunits = {
+			super_heavy_sp_artillery_brigade
+		}
 	
 		research_cost = 0.5
 		start_year = 1943
@@ -1948,6 +2014,9 @@ technologies = {
 
 		enable_equipments = {
 			super_heavy_tank_aa_equipment_1
+		}
+		enable_subunits = {
+			super_heavy_sp_anti_air_brigade
 		}
 	
 		research_cost = 0.5

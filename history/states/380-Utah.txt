@@ -11,14 +11,12 @@ state= {
 
 	history={
 		owner = MEX
+		add_core_of = MEX
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
 		}
-		add_core_of = MEX
-		victory_points = {
-			4865 1 
-		}
+		victory_points = { 4865 1 }
 	}
 	provinces={
 		1663 1740 1756 4668 4742 4865 7764 7818 10582 10651 10662 12573 12699 13153

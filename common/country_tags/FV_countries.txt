@@ -1,0 +1,2 @@
+ALA = "countries/Alaska.txt"
+QUE = "countries/Quebec.txt"

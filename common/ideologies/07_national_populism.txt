@@ -1,0 +1,45 @@
+ideologies = {
+
+	national_populism = {
+	
+		types = {
+		
+			nazism = {
+			}
+			
+			fascism = {
+			}
+			
+			rexism = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_FASCIST_1"
+			"FACTION_NAME_FASCIST_2"
+			"FACTION_NAME_FASCIST_3"
+			"FACTION_NAME_FASCIST_4"
+			"FACTION_NAME_FASCIST_5"
+		}
+		
+		color = { 120 60 0 }
+		
+		war_impact_on_world_tension = 1.0
+		faction_impact_on_world_tension = 1.0
+		
+		rules = {
+			can_force_government = yes
+			can_puppet = yes
+			can_send_volunteers = yes
+		}
+		
+		modifiers = {
+		}
+		
+		faction_modifiers = {
+		}
+
+		can_be_boosted = yes
+	}
+
+}

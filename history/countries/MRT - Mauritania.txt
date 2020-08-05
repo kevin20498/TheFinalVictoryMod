@@ -1,0 +1,45 @@
+﻿capital = 557
+
+#	BASIC VALUES
+OOB = "generic_1936"
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.5
+set_convoys = 100
+
+
+###	TECHNOLOGY
+set_technology = {
+	infantry_weapons = 1
+}
+
+### VARIABLES
+
+###	IDEAS
+add_ideas = {
+
+}
+
+###	POLITICS
+set_politics = {
+	ruling_party = liberalism
+	last_election = "1934.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = { 
+	vanguardism = 5 anarchism = 5 social_democracy = 25 liberalism = 30 conservatism = 25 ultraconservatism = 5 national_populism = 5
+}
+
+###	OPINION & TRADE MODIFIERS
+
+###	POLITICIANS
+
+###	GENERALS
+
+###	ADMIRALS
+
+### OPERATIVES
+if = {
+	limit = { has_dlc = "La Resistance" }
+}
